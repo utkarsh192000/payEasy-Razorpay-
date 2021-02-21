@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% block content %}
+
+<style>
+body{
+    background: url("/static/images/payment.jpg") no-repeat center center fixed;
+    background-size: 100% 100%;
+    height: 100%;
+    position: absolute; 
+    width: 100%;
+
+}
+
+
+
+</style>
+
+
+
+<div class="text-center mt-5 pt-5">
+
+<img src="https://pics.freeicons.io/uploads/icons/png/18552593841537356147-512.png" alt="" class="img-fluid img-responsive" style="height:200px">
+<br>
+<br>
+<h2 class="text-white">Thank you so much !! Your Payment has been received!!</h2>
+
+<a href="/" style="color:pink;">Donate Again</a>
+</div>
+
+
+{% endblock content %}
